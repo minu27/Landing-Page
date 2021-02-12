@@ -1,4 +1,4 @@
-# Project Title
+# IBR Landing Page
 
 A nice project with a nice description
 
