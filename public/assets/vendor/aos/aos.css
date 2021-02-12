@@ -230,7 +230,7 @@ body[data-aos-duration="800"] [data-aos] {
 
 [data-aos][data-aos][data-aos-delay="800"],
 body[data-aos-delay="800"] [data-aos] {
-	transition-delay: 0
+	transition-delay: 0.2s
 }
 
 [data-aos][data-aos][data-aos-delay="800"].aos-animate,
