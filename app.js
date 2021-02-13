@@ -3,7 +3,6 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-
 var app = express();
 
 // view engine setup
@@ -18,13 +17,20 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 let landing = require("./controllers/landing");
-/* GET home page. */
+/* GET pages. */
 
-// Routes 
+// Routes
 
 app.get('/', landing.get_landing );
 
 app.post('/', landing.post_contact);
+
+
+
+
+
+
+
 
 
 
