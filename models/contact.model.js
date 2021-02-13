@@ -1,11 +1,5 @@
 let mongoose = require('mongoose')
-
-const server = 'ds221609.mlab.com:21609'
-const database = 'test'
-const user = 'test'
-const password = 'test'
-// 
-mongoose.connect("mongodb+srv://test:test@cluster0.ljuyz.mongodb.net/contact?retryWrites=true&w=majority", {'useNewUrlParser': true})
+mongoose.connect("mongodb+srv://ibullreport:IBRpass2000@clusteribr.e4dky.mongodb.net/contact?retryWrites=true&w=majority", {'useNewUrlParser': true})
 mongoose.set('useCreateIndex', true);
 
 let CustomerSchema = new mongoose.Schema({
