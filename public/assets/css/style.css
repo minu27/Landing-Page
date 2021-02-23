@@ -443,7 +443,7 @@ section {
 }
 
 .section-bg {
-  background-color: #e4d0f5;
+  background-color: #e9d7f8;
   padding: 60px;
 }
 
@@ -678,7 +678,7 @@ section {
 .services .icon-box::before {
   content: '';
   position: absolute;
-  background: #e4d0f5;
+  background: #e9d7f8;
   right: -60px;
   top: -40px;
   width: 100px;
@@ -881,7 +881,7 @@ section {
 }
 
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
-  color: #e4d0f5;
+  color: #e9d7f8;
   font-size: 26px;
 }
 
