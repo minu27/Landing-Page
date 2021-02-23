@@ -603,6 +603,7 @@ section {
 .counts .content .count-box {
   padding: 20px 0;
   width: 100%;
+  align-self: center;
 }
 
 .counts .content .count-box i {
@@ -611,6 +612,7 @@ section {
   color: #b86ff7;
   float: left;
   line-height: 0;
+  margin-left: 140px;
 }
 
 .counts .content .count-box span {
@@ -619,7 +621,7 @@ section {
   display: block;
   font-weight: 700;
   color: #222222;
-  margin-left: 50px;
+  margin-left: 70px;
 }
 
 .counts .content .count-box p {
