@@ -586,11 +586,11 @@ section {
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  padding-top: 0;
+  padding-top: 15px;
 }
 
 .counts .content {
-  padding: 0;
+  padding: 25px;
 }
 
 .counts .content h3 {
@@ -618,13 +618,22 @@ section {
   margin-left: 140px;
 }
 
-.counts .content .count-box span {
+.purecounter .counts .content .count-box span {
   font-size: 36px;
   line-height: 30px;
   display: block;
-  font-weight: 700;
+  font-weight: bolder;
   color: #222222;
-  margin-left: 70px;
+  margin-left: 180px;
+}  
+
+.perc .counts .content .count-box span{
+  font-size: 36px;
+  line-height: 30px;
+  display: block;
+  font-weight: bolder;
+  color: #222222;
+  margin-left: 250px;
 }
 
 .counts .content .count-box p {
