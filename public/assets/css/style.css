@@ -157,8 +157,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar .getstarted:hover {
-  color: #fff;
-  background: #b86ff7;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #b86ff7;
+  background: #fff;
+  border: 2px solid #b86ff7;
 }
 
 .navbar .dropdown ul {
