@@ -332,9 +332,11 @@ h1, h2, h3, h4, h5, h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100%;
+  width: 80%;
   height: 70vh;
   margin-top: 70px;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
 #hero h1 {
@@ -441,6 +443,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
+  margin: 0 10% 0 10%;
   padding: 10px 0;
   overflow: hidden;
 }
@@ -448,6 +451,7 @@ section {
 .section-bg {
   background-color: #e9d7f8;
   padding: 60px;
+  margin: 0 0 0 0;
 }
 
 .section-title {
