@@ -77,6 +77,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   padding: 22px 0;
   background: #fff;
+  margin: 0 10% 0 10%;
 }
 
 #header.header-scrolled {
@@ -448,6 +449,8 @@ section {
   overflow: hidden;
 }
 
+
+
 .section-bg {
   background-color: #e9d7f8;
   padding: 60px;
@@ -619,7 +622,12 @@ section {
   color: #b86ff7;
   float: left;
   line-height: 0;
-  margin-left: 140px;
+  margin-left: 100px;
+  padding-left: 10px;
+}
+
+.space .counts .content .count-box span {
+  padding-left: 10px;
 }
 
 .purecounter .counts .content .count-box span {
@@ -628,7 +636,7 @@ section {
   display: block;
   font-weight: bolder;
   color: #222222;
-  margin-left: 180px;
+  margin-left: 190px;
 }  
 
 .perc .counts .content .count-box span{
@@ -637,7 +645,7 @@ section {
   display: block;
   font-weight: bolder;
   color: #222222;
-  margin-left: 250px;
+  margin-left: 260px;
 }
 
 .counts .content .count-box p {
