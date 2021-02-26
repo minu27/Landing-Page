@@ -77,7 +77,6 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   padding: 22px 0;
   background: #fff;
-  margin: 0 10% 0 10%;
 }
 
 #header.header-scrolled {
@@ -1490,7 +1489,9 @@ section {
 }
 
 .submitBtn:hover {
-  background: #c287f5;
+  color: #b86ff7;
+  background: #fff;
+  border: 2px solid #b86ff7;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1580,6 +1581,12 @@ section {
   padding: 30px 0;
   color: #222222;
   font-size: 14px;
+}
+
+#footer .copyright {
+  margin: auto;
+  width: 30%;
+  align-items: center;
 }
 
 #footer .credits {
