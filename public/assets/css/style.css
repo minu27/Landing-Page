@@ -776,7 +776,7 @@ section {
 
 .more-services .card {
   border: 0;
-  padding: 160px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
   position: relative;
   width: 100%;
   background-size: cover;
@@ -796,12 +796,13 @@ section {
 
 .more-services .card-title {
   font-weight: 700;
-  text-align: center;
+  text-align: left;
   margin-bottom: 15px;
 }
 
 .more-services .card-title a {
-  color: #222222;
+  color: #b86ff7;
+  align-self: start;
 }
 
 .more-services .card-text {
@@ -824,8 +825,12 @@ section {
   background: #b86ff7;
 }
 
-.more-services .card:hover .read-more a, .more-services .card:hover .card-title, .more-services .card:hover .card-title a, .more-services .card:hover .card-text {
+.more-services .card:hover .read-more a,  .more-services .card:hover .card-text {
   color: #fff;
+}
+
+.more-services .card:hover .card-title, .more-services .card:hover .card-title a {
+  color: #222222;
 }
 
 /*--------------------------------------------------------------
