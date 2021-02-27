@@ -1,10 +1,17 @@
 const path = require('path');
 
-let CustomerModel = require('../models/contact.model')
+let ContactModel = require('../models/contact.model')
 
 exports.get_landing = function(req, res, next) {
     res.sendFile('index.html', { root: 'views' });
 }
+
+
+exports.get_success_contact = function(req, res, next) {
+  res.sendFile('success_contact.html', { root: 'views' });
+}
+
+
 exports.post_contact = function(req, res, next) {
 
     if(!req.body) {
@@ -14,7 +21,7 @@ exports.post_contact = function(req, res, next) {
     if(!req.body.email) {
         return;
     }
-    let model = new CustomerModel(req.body);
+    let model = new ContactModel(req.body);
     model.save()
       .then(doc => {
         if(!doc || doc.length === 0) {
@@ -27,5 +34,5 @@ exports.post_contact = function(req, res, next) {
       })
 
 
-    res.sendFile('index.html', { root: 'views' });
+      return res.redirect('/success-contact');
 }

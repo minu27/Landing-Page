@@ -22,6 +22,7 @@ let landing = require("./controllers/landing");
 // Routes
 
 app.get('/', landing.get_landing );
+app.get('/success-contact', landing.get_success_contact );
 
 app.post('/', landing.post_contact);
 
