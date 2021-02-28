@@ -134,7 +134,7 @@
     <!-- End Clients Section -->
   
     <!-- ======= About Us Section ======= -->
-    <section id="about" class="about">
+    <section id="about" class="about" style="padding-top: 70px;">
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
@@ -971,7 +971,7 @@
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
-      <div class="container" style="padding: 20px; padding-bottom: 120px;">
+      <div class="container">
 
         <div class="section-title" data-aos="fade-up">
           <h2>Contact Us</h2>
@@ -1010,21 +1010,35 @@
           -->
         <div class="row">
           <div class="col-xl-7 d-flex align-items-stretch pt-4 pt-xl-0" data-aos="fade-right" data-aos-delay="150">
-            <div class="content d-flex flex-column justify-content-center mx-auto" style="width: 500px;">
+            <div class="content d-flex flex-column justify-content-center mx-auto" style="width: 700px;padding-right: 20%;">
               <!-- Contact Form  -->
-              <h4>Reach out to us and get the pricing details for our services.</h4>
+              <h5 style="margin-bottom: 3%;">Reach out to us and get the pricing details for our services.</h5>
               <form action="/" method="POST">
-                <div class="form-group">
-                  <input type="text"  class="form-control" id="name" placeholder="Your Name" name="name" required>
+                <div class="row">
+                  <div class = "col-md-6">
+                    <div class="form-group">
+                      <input type="text"  class="form-control" id="name" placeholder="Your Name" name="name" required>
+                    </div>
+                  </div>
+                  <div class = "col-md-6">
+                    <div class="form-group">
+                      <input type="email" class="form-control"  id="email" placeholder="Your Email" name="email" required>
+                    </div>
+                  </div>
                 </div>
-                <div class="form-group">
-                  <input type="email" class="form-control"  id="email" placeholder="Your Email" name="email" required>
+                <div class="row">
+                  <div class = "col-md-12">
+                    <div class="form-group">
+                      <input type="text" class="form-control"  id="subject" placeholder="Subject" name="subject" required>
+                    </div>
+                  </div>
                 </div>
-                <div class="form-group">
-                  <input type="text" class="form-control"  id="subject" placeholder="Subject" name="subject" required>
-                </div>
-                <div class="form-group">
-                  <textarea class="form-control" rows="5" placeholder="Message" required name="message" ></textarea>
+                <div class="row">
+                  <div class = "col-md-12">
+                    <div class="form-group">
+                      <textarea class="form-control" rows="5" placeholder="Message" required name="message" ></textarea>
+                    </div>
+                  </div>
                 </div>
                 
                 <div class="text-center"><button id = "submitButton" type="submit" class="submitBtn">Send Message</button></div>

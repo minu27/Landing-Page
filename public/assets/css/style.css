@@ -334,7 +334,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 80%;
   height: 70vh;
-  margin-top: 70px;
+  margin-top: 120px;
   margin-right: 10%;
   margin-left: 10%;
 }
@@ -447,8 +447,6 @@ section {
   padding: 10px 0;
   overflow: hidden;
 }
-
-
 
 .section-bg {
   background-color: #e9d7f8;
@@ -829,13 +827,10 @@ section .more-services .section-title {
   background: #b86ff7;
 }
 
-.more-services .card:hover .read-more a,  .more-services .card:hover .card-text {
+.more-services .card:hover .read-more a,  .more-services .card:hover .card-text, .card:hover .card-title, .more-services .card:hover .card-title a {
   color: #fff;
 }
 
-.more-services .card:hover .card-title, .more-services .card:hover .card-title a {
-  color: #222222;
-}
 
 /*--------------------------------------------------------------
 # Features
@@ -1387,6 +1382,10 @@ section .more-services .section-title {
   line-height: 24px;
   font-family: "Raleway", sans-serif;
   color: #888;
+}
+
+.contact .container {
+  padding-bottom: 120px;
 }
 
 .contact .social-links {
