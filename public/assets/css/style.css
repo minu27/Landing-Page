@@ -774,6 +774,10 @@ section {
   padding-bottom: 50px;
 }
 
+section .more-services .section-title {
+  margin: 0 0 0 0;
+}
+
 .more-services .card {
   border: 0;
   padding: 20px 20px 20px 20px;
