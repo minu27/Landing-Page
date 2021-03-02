@@ -608,6 +608,11 @@ section {
 
 .counts .content {
   padding: 15px;
+  margin-left: 100px;
+}
+
+#results .content {
+  padding: 15px;
 }
 
 .counts .content h3 {
@@ -632,7 +637,6 @@ section {
   color: #b86ff7;
   float: left;
   line-height: 0;
-  margin-left: 100px;
   padding-left: 10px;
 }
 
@@ -665,6 +669,7 @@ section {
   font-size: 14px;
   color: #484848;
 }
+
 
 .counts .content .count-box a {
   font-weight: 600;
