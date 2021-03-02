@@ -442,11 +442,19 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
+/*#about #testimonials #faq #contact .services .more-services{
+  margin: 0 10% 0 10%;
+  padding: 10px 0;
+  overflow: hidden;
+}*/
+
 section {
   margin: 0 10% 0 10%;
   padding: 10px 0;
   overflow: hidden;
 }
+
+
 
 .section-bg {
   background-color: #e9d7f8;
@@ -594,7 +602,7 @@ section {
 }
 
 .counts .content {
-  padding: 25px;
+  padding: 15px;
 }
 
 .counts .content h3 {
@@ -772,7 +780,7 @@ section {
   padding-bottom: 50px;
 }
 
-section .more-services .section-title {
+section .more-services  .section-title {
   margin: 0 0 0 0;
 }
 
